@@ -1,0 +1,11 @@
+name = Book Review
+core = 7.x
+package = Features
+version = 7.x-1.0
+dependencies[] = features
+dependencies[] = number
+dependencies[] = text
+features[features_api][] = api:2
+features[field_base][] = field_book_author
+features[field_base][] = field_rating
+features[field_base][] = field_review_body
